@@ -115,7 +115,10 @@ Experiment
 
 ![image](https://user-images.githubusercontent.com/61686244/108628357-cd6b9780-749d-11eb-98ee-1cd9f13f1cb2.png)
 
-
+ * Information multi-distillation network for lightweight and accurate SISR제안
+ * 단계별 계층적인 특징을 추출하기위한 Progressive Refinement Module 설계
+ * 제안된 Contrast Aware Channel Attention을 이용하여 SR성능 향상
+ * 임의의 확대 배율에도 SR이 가능한 
 
 
 
