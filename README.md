@@ -83,7 +83,7 @@ Contrast-aware Channel Attention Layer
 Adaptive Cropping Strategy
 --------------------------
   * 기존의 IMDN의 구조를 조금 변형시킴, 2개의 downsampling layer를 앞단에 둠, 하나의 모델로 모든 확대 배율 SR을 사용가능
-  * 높이와 넓이를 4로 나눌수 없을 때 첫 번째로 영상을 4등분하여 IMDN_AS에 입력
+  * 높이와 너비를 4로 나눌수 없을 때 첫 번째로 영상을 4등분하여 IMDN_AS에 입력
   * 그림 4와 같이 ACS를 통해서 overlapped된 영상의 4개의 patch를 얻을 수 있음
 
 ![image](https://user-images.githubusercontent.com/61686244/108628307-8ed5dd00-749d-11eb-9eaf-3de2bebab048.png)
