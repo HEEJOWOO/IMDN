@@ -42,8 +42,11 @@ Attention Model
 Network
 -------
 ![image](https://user-images.githubusercontent.com/61686244/108628213-06573c80-749d-11eb-833c-99aaf6e96094.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628219-09eac380-749d-11eb-8f74-e6cce0b72186.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628230-1242fe80-749d-11eb-8b28-e3cbc7e80ce2.png)
+
 
   * LR 특징 추출단계, 3x3 Conv 사용 64 출력 후 IMDBs입력, 하나의 IMDB는 각 단계별 중간 특징들(split된 특징들)을 concat하여 CCA layer를 통과한 뒤 1x1 Conv를 이용하여 융합
   * 이런 구조는 수집 된 정보의 무결성을 보장하고 매우 적은 매개 변수를 증가시켜 SR 성능을 더욱 향상시킬 수 있음 
@@ -84,20 +87,32 @@ Adaptive Cropping Strategy
   * 그림 4와 같이 ACS를 통해서 overlapped된 영상의 4개의 patch를 얻을 수 있음
 
 ![image](https://user-images.githubusercontent.com/61686244/108628307-8ed5dd00-749d-11eb-9eaf-3de2bebab048.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628308-94332780-749d-11eb-9dd3-3eeb09c99838.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628315-985f4500-749d-11eb-84af-06f78660c104.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628318-9d23f900-749d-11eb-955f-c5354c079407.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628322-a1501680-749d-11eb-8495-88b1b20a26c4.png)
+
 
 Experiment
 ----------
 ![image](https://user-images.githubusercontent.com/61686244/108628329-ac0aab80-749d-11eb-977d-3734984ac3a7.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628334-b036c900-749d-11eb-96e9-8a5f51058018.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628336-b3ca5000-749d-11eb-8ed6-ef29bdc8a2f6.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628340-baf15e00-749d-11eb-95e2-c078da2efe42.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628343-bf1d7b80-749d-11eb-96e0-0bc8fb5d79ca.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628347-c3e22f80-749d-11eb-894a-986adabc51e6.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628352-c93f7a00-749d-11eb-800b-e9bd5519c805.png)
+
 ![image](https://user-images.githubusercontent.com/61686244/108628357-cd6b9780-749d-11eb-98ee-1cd9f13f1cb2.png)
 
 
